@@ -64,6 +64,7 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
 body{
   background-color: $black;
 }
@@ -87,16 +88,30 @@ body{
     color: $white;
     z-index: 1000;
     h2{
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       font-weight: 600;
       margin: 0.5rem 0 0;
+      text-transform: uppercase;
     }
     p{
       margin: 0;
-      font-size: 0.9rem;
+      font-size: 0.7rem;
     }
   }
 }
+ul{
+      li{
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: $white;
+        margin-bottom: 1rem;
+        a{
+          color: DimGray;
+          transition: all .2s ease-in-out;
+        }
+      }
+    }
 .objeto:hover, .objeto:focus{
   z-index: 1000;
   .objeto-reveal{
