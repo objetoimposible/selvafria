@@ -64,7 +64,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-
+body{
+  background-color: $black;
+}
 .objeto {
   position: absolute;  
   width: 150px;
@@ -82,7 +84,7 @@
     line-height: 1.2rem;
     text-align: center;
     opacity: 0;
-    color: cyan;
+    color: $white;
     z-index: 1000;
     h2{
       font-size: 0.9rem;
