@@ -5,56 +5,214 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Selva Fría</title>
+  <title>Portada</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
 
-  <a class="objeto" class="item-drag" href="data.html" target="_blank">
-    <img src="assets/portada/ojo.png" alt="">
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <!-- Your menu or Off-canvas content goes here -->
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="small-12">
+          <h2>
+            <span>Categoría</span>
+            Nombre Categoría
+          </h2>
+          <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nisi sed dolor
+            molestie
+            porttitor. Cras ultricies tincidunt tortor, vitae ultricies justo ornare ut. Morbi quis lorem in
+            tellus imperdiet pharetra. Morbi suscipit molestie dictum. Cras sed nibh mattis, ullamcorper sem
+            quis, vestibulum felis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-x">
+      <div class="small-12">
+        <img src="https://placehold.co/600x300/000000/FFFFFF/png" alt="">
+      </div>
+    </div>
+    <div class="grid-x">
+      <div class="small-12">
+        <ul class="accordion" data-accordion data-allow-all-closed="true">
+          <li class="accordion-item" data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#" class="accordion-title">Archivos Fílmicos</a>
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" data-tab-content>
+              <div class="grid-x grid-margin-x grid-margin-y">
+                <div class="small-6 cell">
+                  <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-6 cell">
+                  <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-6 cell">
+                  <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-6 cell">
+                  <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-6 cell">
+                  <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-6 cell">
+                  <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-item" data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#" class="accordion-title">Archivos Fotográficos</a>
+
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" data-tab-content>
+              <div class="grid-x grid-margin-x grid-margin-y">
+                <div class="small-4 cell">
+                  <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-4 cell">
+                  <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-4 cell">
+                  <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-4 cell">
+                  <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-4 cell">
+                  <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
+                </div>
+                <div class="small-4 cell">
+                  <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-item" data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#" class="accordion-title">Archivos Cartográficos</a>
+
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" data-tab-content>
+
+              <a href="#">Nowhere to Go</a>
+            </div>
+          </li>
+          <li class="accordion-item" data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#" class="accordion-title">Archivos Sonoros</a>
+
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" data-tab-content>
+
+              <a href="#">Nowhere to Go</a>
+            </div>
+          </li>
+          <li class="accordion-item" data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#" class="accordion-title">Otras Fuentes</a>
+
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" data-tab-content>
+
+              <a href="#">Nowhere to Go</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <nav id="nav" role="navigation">
+        <ul class="clearfix">
+          <li> <a href=""><span>SELVA FRÍA</span></a>
+            <ul>
+              <li><a href="">Archivo Fílmico</a></li>
+              <li><a href="">Fotografías</a></li>
+              <li><a href="">Cartografías</a></li>
+              <li><a href="">Sonidos</a></li>
+              <li><a href="">Otras Fuentes</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/page-contacto">Contacto</a></li>
+        <li><a href="/page-sobre">Acerca de</a></li>
+        <li><a href="/colaboraciones">Colaboraciones</a></li>
+        <!-- <button type="button" class="button" data-toggle="offCanvas">Open Menu</button> -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- <div class="grid-container">
+    <div class="grid-x">
+      <div class="small-12 cell">
+        <h1>Portada</h1>
+        <turbo-frame id="gallery">
+          <img src="images/ocean.jpg" alt="Ocean" width="500" height="400">
+          <div>
+            <a href="/gallery/forest">Next (forest)</a>
+          </div>
+        </turbo-frame>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="off-canvas-content" data-off-canvas-content></div>
+
+  <a class="objeto" class="item-drag ui-widget-content" data-toggle="offCanvas">
+    <video class="video-drag" autoplay="" controls="" muted="" loop="" class="video-drag">
+      <source src="assets/portada/01.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <div class="objeto-reveal">
-      <h2>titulo objeto</h2>
+      <h2>titulo objeto 1</h2>
       <p><b>2024</b></p>
     </div>
   </a>
+  <a class="objeto" class="item-drag ui-widget-content" href="data.html" target="_blank">
+    <video class="video-drag" autoplay="" controls="" muted="" loop="">
+      <source src="assets/portada/02.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="objeto-reveal">
+      <h2>titulo objeto 2</h2>
+      <p><b>2024</b></p>
+    </div>
+  </a>
+  <a class="objeto" class="item-drag ui-widget-content" href="data.html" target="_blank">
+    <h3>Categoría</h3>
+  </a>
 
-  <a href="data.html" style="position: absolute; bottom: 0;"><b>ir al indice</b></a>
+  </div>
 
-
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"
+    integrity="sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+    integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
     integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
   <script src="node_modules/what-input/dist/what-input.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@latest/dist/turbo.es2017-esm.min.js"></script>
   <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
-
   <script src="js/app.js"></script>
-  <script>
-    var MR = function (X) { return Math.random() * X }, TwL = TweenLite, G = document.querySelectorAll('.objeto');
-    function BTweens() {
-      var W = window.innerWidth, H = window.innerHeight, C = 100;
-      TwL.killDelayedCallsTo(BTweens);
-      TwL.delayedCall(C * 4, BTweens);
-      for (var i = G.length; i--;) {
-        var c = C, BA = [], GWidth = G[i].offsetWidth, GHeight = G[i].offsetHeight;
-        while (c--) {
-          var SO = MR(1);
-          BA.push({ x: MR(W - GWidth), y: MR(H - GHeight) });
-        };
-        if (G[i].T) {
-          G[i].T.kill()
-        }
-        G[i].T = TweenMax.to(G[i], C * 10, { bezier: { timeResolution: 0, type: "soft", values: BA }, delay: i * 0.05, ease: Linear.easeNone });
-      }
-    };
-    BTweens();
-    window.onresize = function () {
-      TwL.killDelayedCallsTo(BTweens);
-      TwL.delayedCall(0.4, BTweens);
-    };
-  </script>
 
 
 </body>
