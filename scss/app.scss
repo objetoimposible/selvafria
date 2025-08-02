@@ -64,14 +64,15 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-$ancho300: 300px;
+$ancho-hor: 200px;
+$ancho-sq: 130px;
+
 
 
 /* COMPONENTES NAVEGACIÓN */
 
-body{
-    background: #fdffe6;
-background: linear-gradient(17deg,rgba(253, 255, 230, 1) 0%, rgba(255, 245, 219, 1) 100%);
+body {
+    background: white;
 }
 
 .top-bar {
@@ -138,17 +139,12 @@ background: linear-gradient(17deg,rgba(253, 255, 230, 1) 0%, rgba(255, 245, 219,
 
 a.objeto {
     position: absolute;
-    width: $ancho300;
     height: auto;
-    /* background: black;
-  border: 1px solid white;*/
     color: $black;
     transition: all .2s ease-in-out;
 
     img,
     video.video-drag {
-        max-width: $ancho300;
-        width: $ancho300;
         pointer-events: none;
     }
 
@@ -188,14 +184,33 @@ a.objeto:focus {
     }
 }
 
+a.objeto-hor{
+    width: $ancho-hor;
+    img,
+    video.video-drag {
+        max-width: $ancho-hor;
+        width: $ancho-hor;
+    }
+}
+
+a.objeto-sq{
+    width: $ancho-sq;
+    img,
+    video.video-drag {
+        max-width: $ancho-sq;
+        width: $ancho-sq;
+    }
+}
 
 
 
 
 
-#nav *{
+
+#nav * {
     z-index: 1;
 }
+
 #nav ul {
     margin-bottom: 0;
 }
@@ -265,7 +280,8 @@ a.objeto:focus {
     margin-left: 0;
     border-radius: 0 0 5px 5px;
 }
-#nav li ul li:last-child a{
+
+#nav li ul li:last-child a {
     border-radius: 0 0 5px 5px;
 }
 
