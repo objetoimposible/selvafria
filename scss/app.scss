@@ -156,19 +156,29 @@ body {
 .off-canvas {
 
     .accordion-content {
-        img {
-            border-radius: 3px;
-            overflow: hidden;
+        a {
+            img {
+                border-radius: 3px;
+                overflow: hidden;
+                transition: all .1s ease-in-out;
+            }
+        }
+
+        a:hover,
+        a:focus {
+            img {
+                box-shadow: 0px 1px 3px 2px rgba($black, .5);
+            }
         }
     }
 
     h2 {
         font-size: 1.2rem;
         margin-top: 1.5rem;
+        text-transform: uppercase;
 
         span {
             display: block;
-            text-transform: uppercase;
             font-size: .8rem;
         }
     }
@@ -217,7 +227,7 @@ a.objeto {
                 font-weight: 600;
                 margin: 0; //0.5rem 0 0;
                 text-transform: uppercase;
-                background: darken($primary-color, 25%);
+                background: darken($primary-color, 18%);
                 color: $white;
                 display: inline-block;
                 padding: 2px 10px;
@@ -241,7 +251,7 @@ a.objeto:focus {
     }
 }
 
-a.objeto.is-active{
+a.objeto.is-active {
     z-index: 1 !important;
 }
 
@@ -468,5 +478,41 @@ a.objeto-sq {
         padding: 1.25em;
         /* 20 */
         padding-top: 0;
+    }
+}
+
+
+/*  SINGLE PAGE */
+
+.single-content {
+    padding: 2rem;
+
+    h2 {
+        text-transform: uppercase;
+
+        span {
+            margin: 0; //0.5rem 0 0;
+            display: block;
+            font-size: 1.2rem;
+        }
+    }
+
+    p,
+    table {
+        font-size: .8rem;
+    }
+
+    table {
+        tbody {
+            tr {
+                td:first-child {
+                    font-weight: bolder;
+                    width: 150px;
+                }
+                td{
+                    padding-left: 0;
+                }
+            }
+        }
     }
 }

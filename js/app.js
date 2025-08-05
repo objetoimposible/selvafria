@@ -1,5 +1,17 @@
 $(document).foundation();
 
+// SMOOTH SCROLL
+
+const lenis = new Lenis()
+lenis.on('scroll', (e) => {
+    console.log(e)
+})
+function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+}
+requestAnimationFrame(raf)
+
 // ANIMACION DE ELEMENTOS PORTADA
 // Variable que encapsula la función Math.random para acortar el código.
 var MR = function (X) { return Math.random() * X },
@@ -83,18 +95,6 @@ window.onresize = function () {
     setupObjects();
     TwL.delayedCall(0.4, BTweens);
 };
-
-// SMOOTH SCROLL
-
-const lenis = new Lenis()
-lenis.on('scroll', (e) => {
-    console.log(e)
-})
-function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-}
-requestAnimationFrame(raf)
 
 // FILTRO DE CATEGORIAS (LEGACY)
 
