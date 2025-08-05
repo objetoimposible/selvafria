@@ -11,133 +11,17 @@
 </head>
 
 <body>
-<turbo-frame id="offcanvas-container">
 
-  
-    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-      <button class="close-button" aria-label="Close menu" type="button" data-close>
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <!-- Your menu or Off-canvas content goes here -->
-      <div class="grid-container">
-        <div class="grid-x">
-          <div class="small-12">
-            <h2><span>
-              <span>Categoría</span>
-              Nombre Categoría
-            </span></h2>
-            <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nisi sed dolor
-              molestie
-              porttitor. Cras ultricies tincidunt tortor, vitae ultricies justo ornare ut. Morbi quis lorem in
-              tellus imperdiet pharetra. Morbi suscipit molestie dictum. Cras sed nibh mattis, ullamcorper sem
-              quis, vestibulum felis.</p>
-          </div>
-        </div>
-      </div>
-      <div class="grid-x">
-        <div class="small-12">
-          <img src="https://placehold.co/600x300/000000/FFFFFF/png" alt="">
-        </div>
-      </div>
-      <div class="grid-x">
-        <div class="small-12">
-          <ul class="accordion" data-accordion data-allow-all-closed="true">
-            <li class="accordion-item" data-accordion-item>
-              <!-- Accordion tab title -->
-              <a href="#" class="accordion-title">Archivos Fílmicos</a>
-              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-              <div class="accordion-content" data-tab-content>
-                <div class="grid-x grid-margin-x grid-margin-y">
-                  <div class="small-6 cell">
-                    <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-6 cell">
-                    <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-6 cell">
-                    <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-6 cell">
-                    <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-6 cell">
-                    <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-6 cell">
-                    <img src="https://placehold.co/1920x1080/000000/FFFFFF/png" alt="">
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="accordion-item" data-accordion-item>
-              <!-- Accordion tab title -->
-              <a href="#" class="accordion-title">Archivos Fotográficos</a>
-
-              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-              <div class="accordion-content" data-tab-content>
-                <div class="grid-x grid-margin-x grid-margin-y">
-                  <div class="small-4 cell">
-                    <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-4 cell">
-                    <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-4 cell">
-                    <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-4 cell">
-                    <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-4 cell">
-                    <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
-                  </div>
-                  <div class="small-4 cell">
-                    <img src="https://placehold.co/500x500/000000/FFFFFF/png" alt="">
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="accordion-item" data-accordion-item>
-              <!-- Accordion tab title -->
-              <a href="#" class="accordion-title">Archivos Cartográficos</a>
-
-              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-              <div class="accordion-content" data-tab-content>
-
-                <a href="#">Nowhere to Go</a>
-              </div>
-            </li>
-            <li class="accordion-item" data-accordion-item>
-              <!-- Accordion tab title -->
-              <a href="#" class="accordion-title">Archivos Sonoros</a>
-
-              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-              <div class="accordion-content" data-tab-content>
-
-                <a href="#">Nowhere to Go</a>
-              </div>
-            </li>
-            <li class="accordion-item" data-accordion-item>
-              <!-- Accordion tab title -->
-              <a href="#" class="accordion-title">Otras Fuentes</a>
-
-              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-              <div class="accordion-content" data-tab-content>
-
-                <a href="#">Nowhere to Go</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
 
   <div class="top-bar">
     <div class="top-bar-left">
       <nav id="nav" role="navigation">
         <ul class="clearfix">
-          <li> <h1><a href=""><span class="site-title">SELVA FRÍA</span></a></h1>
+          <li>
+            <h1><a href=""><span class="site-title">SELVA FRÍA</span></a></h1>
             <ul>
               <li><a href="">Archivo Fílmico</a></li>
               <li><a href="">Fotografías</a></li>
@@ -151,40 +35,36 @@
     </div>
     <div class="top-bar-right">
       <ul class="menu">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/page-contacto">Contacto</a></li>
-        <li><a href="/page-sobre">Acerca de</a></li>
-        <li><a href="/colaboraciones">Colaboraciones</a></li>
-        <!-- <button type="button" class="button" data-toggle="offCanvas">Open Menu</button> -->
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="page-sobre.html" target="_blank">Acerca de</a></li>
+        <li><a href="page-colaboraciones.html" target="_blank">Colaboraciones</a></li>
       </ul>
     </div>
   </div>
 
-  <!-- <div class="grid-container">
-    <div class="grid-x">
-      <div class="small-12 cell">
-        <h1>Portada</h1>
-        <turbo-frame id="gallery">
-          <img src="images/ocean.jpg" alt="Ocean" width="500" height="400">
-          <div>
-            <a href="/gallery/forest">Next (forest)</a>
-          </div>
-        </turbo-frame>
-      </div>
-    </div>
-  </div> -->
+
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div id="offcanvas-content"></div>
+
+  </div>
 
   <div class="off-canvas-content" data-off-canvas-content></div>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
-    <img src="images/portada/aguas_quietas.png" alt="">
+
+  <a id="portada-aguasquietas" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/aguasquietas.html">
+    <img src="images/portada/aguasquietas.png" alt="">
     <div class="objeto-reveal">
       <h2><span>aguas quietas</span></h2>
       <!-- <p><b>2024</b></p> -->
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-bordes" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/bordes.html">
     <img src="images/portada/bordes.png" alt="">
     <div class="objeto-reveal">
       <h2><span>bordes</span></h2>
@@ -192,15 +72,17 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
-    <img src="images/portada/bosque_inundados.png" alt="">
+  <a id="portada-bosquesinundados" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/bosquesinundados.html">
+    <img src="images/portada/bosqueinundados.png" alt="">
     <div class="objeto-reveal">
       <h2><span>bosques inundados</span></h2>
       <!-- <p><b>2024</b></p> -->
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-bosques" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/bosques.html">
     <img src="images/portada/bosques.png" alt="">
     <div class="objeto-reveal">
       <h2><span>bosques</span></h2>
@@ -208,7 +90,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-cartografias" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/cartografias.html">
     <img src="images/portada/cartografias.png" alt="">
     <div class="objeto-reveal">
       <h2><span>cartografías</span></h2>
@@ -216,7 +99,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-corrientes" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/corrientes.html">
     <img src="images/portada/corrientes.png" alt="">
     <div class="objeto-reveal">
       <h2><span>corrientes</span></h2>
@@ -224,7 +108,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-desechos" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/desechos.html">
     <img src="images/portada/desechos.png" alt="">
     <div class="objeto-reveal">
       <h2><span>desechos</span></h2>
@@ -232,7 +117,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-fabricas" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/fabricas.html">
     <img src="images/portada/fabricas.png" alt="">
     <div class="objeto-reveal">
       <h2><span>fábricas</span></h2>
@@ -240,7 +126,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-flora" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/flora.html">
     <img src="images/portada/flora.png" alt="">
     <div class="objeto-reveal">
       <h2><span>flora</span></h2>
@@ -248,15 +135,17 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
-    <img src="images/portada/incidencia_luz.png" alt="">
+  <a id="portada-incidencialuz" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/incidencialuz.html">
+    <img src="images/portada/incidencialuz.png" alt="">
     <div class="objeto-reveal">
       <h2><span>incidencia de la luz</span></h2>
       <!-- <p><b>2024</b></p> -->
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-micromundos" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/micromundos.html">
     <img src="images/portada/micromundos.png" alt="">
     <div class="objeto-reveal">
       <h2><span>micromundos</span></h2>
@@ -264,7 +153,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-objetos" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/objetos.html">
     <img src="images/portada/objetos.png" alt="">
     <div class="objeto-reveal">
       <h2><span>objetos</span></h2>
@@ -272,7 +162,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-pajaros" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/pajaros.html">
     <img src="images/portada/pajaros.png" alt="">
     <div class="objeto-reveal">
       <h2><span>pájaros</span></h2>
@@ -280,7 +171,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-parcelaciones" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/parcelaciones.html">
     <img src="images/portada/parcelaciones.png" alt="">
     <div class="objeto-reveal">
       <h2><span>parcelaciones</span></h2>
@@ -288,7 +180,8 @@
     </div>
   </a>
 
-  <a class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas">
+  <a id="portada-riberas" class="objeto objeto-hor item-drag ui-widget-content" data-toggle="offCanvas"
+    data-url="contenido/riberas.html">
     <img src="images/portada/riberas.png" alt="">
     <div class="objeto-reveal">
       <h2><span>riberas</span></h2>
@@ -316,8 +209,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="js/app.js"></script>
 
-
-</turbo-frame>
 </body>
 
 </html>
