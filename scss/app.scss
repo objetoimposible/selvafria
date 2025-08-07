@@ -531,9 +531,12 @@ a.objeto-sq {
 }
 
 .archivo-container {
-
+    padding: 1.9rem;
     img {
         border-radius: $radius;
+    }
+    h2{
+        font-size: 1.2rem;
     }
     h3{
         font-size: .8rem;
