@@ -62,7 +62,7 @@ function BTweens() {
             G[i].T.kill()
         }
         
-        G[i].T = TweenMax.to(G[i], C * 10, {
+        G[i].T = TweenMax.to(G[i], C * 20, {
             bezier: { timeResolution: 0, type: "soft", values: BA },
             delay: i * 0.05,
             ease: Linear.easeNone
