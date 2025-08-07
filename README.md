@@ -1,47 +1,7 @@
-# Foundation for Sites Template
+Selva fría es un proyecto de investigación socioespacial en torno al Río Maullín. Se propone el río, en cuanto cuerpo de agua, sus ficciones y su cuenca, como espacio de memoria espacial sedimentada y como posible refugio frente a las parcelaciones a su alrededor. Trabajamos a partir del análisis territorial, desde un enfoque micropolítico, en el que se propone describir y analizar las operaciones estéticas, políticas y espaciales presentes en el caso de la Comunidad Autónoma Levoñanco Ta Leufu y Alto Maullín SpA, como punto de partida para comprender los modos de vida alrededor del sector del nacimiento del río en el sector del lago Llanquihue, comuna de Llanquihue región de los Lagos. Los modos de representar al río, sus dinámicas espaciales, la vida de las comunidades de la ribera, así como de las vidas más que humanas, es a través del levantamiento de evidencias gráficas en diversos formatos: archivo fotográfico, registro fotográfico, registro audiovisual, mapeo cartográfico, registro sonoro, que en el gesto de ser archivadas y catalogadas en una plataforma web colectiva, cooperativa y de libre uso, entregaría a las comunidades en disputa, material específico en el contexto de procesos de justicia ambiental.
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+Se pretende identificar la imagen que aparece al interseccionar las categorías de: micropolítica, tecnologías de producción de imágenes y colonialidad del ver, como campos de acción dinámicos. Se propone que la imagen resultante, podría subvertir el régimen colonial de la visualidad, en cuanto se constituye como un dispositivo de la memoria espacial.
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+El estudio tiene un enfoque cualitativo y una perspectiva descriptiva- interpretativa, en el que se visibiliza la memoria socioespacial sedimentada como práctica contenida en el archivo de los registros. Complementado con las notas de campo y/o observación realizadas. Se analizará el concepto de imagen como lugar de la mirada americana (KAY,1980) en función de: 1) Micropolitica,(ROLNIK y GUATTARI,2006); 2) Tecnologías de producción de imágenes (FAROCKI, 1993); 3) Colonialidad del ver (BARRIENDOS, 2011); 4) Ecología Politica (DELGADO, 2010)
 
-## Installation
-
-To use this template, your computer needs:
-
-- [NodeJS](https://nodejs.org/en/) (12 or greater)
-- [Git](https://git-scm.com/)
-
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+Palabras claves: micropolítica, tecnologías de imagen, colonialidad del ver, ecología política.
