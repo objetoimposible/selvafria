@@ -1,0 +1,674 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <!-- <div id="preloader">
+        <div class="spinner"></div>
+    </div> -->
+
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <nav id="nav" role="navigation">
+                <ul class="clearfix">
+                    <li>
+                        <h1><a href=""><span class="site-title">SELVA FRÍA</span></a></h1>
+                        <ul>
+                            <li><a href="archivo.html" target="_blank">Cautín</a></li>
+                            <li><a href="archivo.html" target="_blank">Marazzi</a></li>
+                            <li><a href="archivo.html" target="_blank">Maullín</a></li>
+                            <li><a href="archivo.html" target="_blank">Truful-Truful</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><a href="page-sobre.html" target="_blank">Sobre el Proyecto</a></li>
+                <li><a href="page-colaboraciones.html" target="_blank">Colaboraciones</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sub-bar">
+        <div class="grid-x">
+            <div class="small-10 small-offset-1 medium-6 medium-offset-0 cell">
+                <h2>Rio Cautín</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="archivo-container">
+        <div class="grid-x grid-margin-x grid-margin-y">
+            <div class="small-12 cell">
+                <h2>Archívo Fílmico</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-margin-x grid-margin-y">
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bordes_1_curacautin.png" alt="">
+                    <h3><span class="label rounded">bordes</span> Curacautín 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bordes_2_curacautin.png" alt="">
+                    <h3><span class="label rounded">bordes</span> Curacautín 002</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bordes_3_lautaro.png" alt="">
+                    <h3><span class="label rounded">bordes</span> Lautaro 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bordes_4_malalcahuello.png" alt="">
+                    <h3><span class="label rounded">bordes</span> Malalcahuello 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bosque_1.png" alt="">
+                    <h3><span class="label rounded">Bosque</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bosque_2.png" alt="">
+                    <h3><span class="label rounded">Bosque</span> Cautín 002</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_bosque_3.png" alt="">
+                    <h3><span class="label rounded">Bosque</span> Cautín 003</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_corriente_1.png" alt="">
+                    <h3><span class="label rounded">Corriente</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_corriente_2.png" alt="">
+                    <h3><span class="label rounded">Corriente</span> Cautín 002</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_corriente_3.png" alt="">
+                    <h3><span class="label rounded">Corriente</span> Cautín 003</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_corriente_4.png" alt="">
+                    <h3><span class="label rounded">Corriente</span> Cautín 004</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_corriente_5.png" alt="">
+                    <h3><span class="label rounded">Corriente</span> Cautín 005</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_flora_1.png" alt="">
+                    <h3><span class="label rounded">Flora</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_incidencialuz_1.png" alt="">
+                    <h3><span class="label rounded">Incidencia de la luz</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_1.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_2.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 002</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_3.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 003</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_4.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 004</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_5.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 005</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_6.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 006</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-3 cell">
+              <a href="single-video.html" target="_blank">
+                    <img src="contenido/thumb/video/video_cautin_ribera_7.png" alt="">
+                    <h3><span class="label rounded">Ribera</span> Cautín 007</h3>
+                    <ul>
+                        <li><strong>Duración:</strong> 3min </li>
+                        <li><strong>formato:</strong> .mov</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <br/><br/><br/>
+        <div class="grid-x grid-margin-x grid-margin-y">
+            <div class="small-12 cell">
+                <h2>Archívo Fotográfico</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-margin-x grid-margin-y">
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_1.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_2.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 002</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_3.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 003</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_4.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 004</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_5.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 005</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_6.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 006</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_7.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 007</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_8.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 008</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_9.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 009</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_10.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 010</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bordes_11.jpg" alt="">
+                    <h3><span class="label rounded">Bordes</span> Cautín 011</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_1.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 001</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_2.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 002</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+           <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_3.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 003</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_4.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 004</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_5.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 005</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_6.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 006</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_7.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 007</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_8.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 008</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_9.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 009</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_10.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 010</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_11.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 011</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_12.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 012</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_13.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 013</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_14.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 014</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_15.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 015</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_16.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 016</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_17.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 017</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_18.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 018</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_19.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 019</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_20.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 020</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_21.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 021</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_22.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 022</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_23.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 023</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_24.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 024</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_25.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 025</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="small-12 medium-2 cell">
+                <a href="single.html">
+                    <img src="contenido/thumb/foto/foto_cautin_bosques_26.jpg" alt="">
+                    <h3><span class="label rounded">Bosques</span> Cautín 026</h3>
+                    <ul>
+                        <li><strong>Tamaño:</strong> 760kb </li>
+                        <li><strong>formato:</strong> .jpg</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"
+            integrity="sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+            integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+            integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+        <script src="node_modules/what-input/dist/what-input.js"></script>
+        <script type="module"
+            src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@latest/dist/turbo.es2017-esm.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.9.0/js/foundation.min.js"
+            integrity="sha512-P4f0g0iAkyfUF2V2VX8dxkoBxPLULaV2TM8HQGXFRb75AzLVAf+sn+MRweu/C81rL2JaYutbY6cWAbmwJbtOcg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js"></script>
+
+</body>
+
+</html>
